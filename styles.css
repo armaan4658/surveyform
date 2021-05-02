@@ -52,3 +52,15 @@ div.stars {
     content: '\f006';
     font-family: FontAwesome;
   }
+  .mobile{
+    display: none;
+  }
+  /*For mobile view*/
+ @media screen and (max-width:320px){
+   .computer{
+     display: none;
+   }
+   .mobile{
+     display: block;
+   }
+ }
