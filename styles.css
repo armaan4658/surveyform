@@ -56,7 +56,7 @@ div.stars {
     display: none;
   }
   /*For mobile view*/
- @media screen and (max-width:320px){
+ @media screen and (max-width:450px){
    .computer{
      display: none;
    }
